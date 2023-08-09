@@ -2,7 +2,7 @@
 import type { StudentItem } from '@/type'
 import { ref, type Ref } from 'vue'
 import StudentService from '@/services/StudentService';
-import StudentCard from '@/components/StudentCard.vue';
+
 
 const students: Ref<Array<StudentItem>> = ref([])
 
